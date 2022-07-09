@@ -18,7 +18,7 @@ router.post("/api/signup", async (req, res) => {
     } catch (e) {
         res.status(400).send(e);
     }
-    res.send("Successfull")
+    // res.send("Successfull")
 })
 router.post('/api/login', async (req, res) => {
     // Read username and password from request body
